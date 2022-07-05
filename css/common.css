@@ -22,3 +22,19 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* task 03 */
+
+.gallery {
+  padding: 0;
+  margin: 0 auto;
+
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  width: 1200px;
+  height: 400px;
+}
