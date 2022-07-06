@@ -15,14 +15,14 @@ const images = [
 
 const galleryListEl = document.querySelector('.gallery');
 
-const makeGalleryItem = ({ url, alt, width, height } = {}) => {
+const makeGalleryItem = ({ url, alt } = {}) => {
   return `
     <li class="gallery-item">
         <img src="${url}" alt="${alt}" width="400" height="300">
     </li>
   `;
 };
-console.log(makeGalleryItem)
+// console.log(makeGalleryItem)
 
 const galleryArr = images.map(el => {
   return makeGalleryItem(el);
